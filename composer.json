@@ -1,5 +1,5 @@
 {
-    "name": "michaelb/lumen-db2",
+    "name": "geiger-it/lumen-db2",
     "description": "lumen-db2 is a simple DB2 service provider for Lumen. It provides DB2 Connection by extending the Illuminate Database component of the laravel framework.",
     "keywords": ["lumen", "laravel", "DB2", "Database", "PDO", "ODBC"],
     "license": "MIT",
@@ -11,6 +11,10 @@
         {
             "name": "Michael Bonds",
             "role": "Developer/Contributor"
+        },
+        {
+            "name": "Evan Smith",
+            "role": "Developer/Contributor"  
         }
     ],
     "require": {
