@@ -1,5 +1,5 @@
 <?php
-namespace MichaelB\Database\DB2\Schema;
+namespace GeigerIt\Database\DB2\Schema;
 
 class Blueprint extends \Illuminate\Database\Schema\Blueprint {
 

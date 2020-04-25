@@ -1,5 +1,5 @@
 <?php
-namespace MichaelB\Database\DB2\Query\Processors;
+namespace GeigerIt\Database\DB2\Query\Processors;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Processors\Processor;

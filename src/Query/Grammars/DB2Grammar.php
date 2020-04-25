@@ -1,5 +1,5 @@
 <?php
-namespace MichaelB\Database\DB2\Query\Grammars;
+namespace GeigerIt\Database\DB2\Query\Grammars;
 
 use Illuminate\Database\Query\Grammars\Grammar;
 use Illuminate\Database\Query\Builder;

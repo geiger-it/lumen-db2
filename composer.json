@@ -1,6 +1,6 @@
 {
     "name": "geiger-it/lumen-db2",
-    "description": "lumen-db2 is a simple DB2 service provider for Lumen. It provides DB2 Connection by extending the Illuminate Database component of the laravel framework.",
+    "description": "DB2 service provider for Laravel/Lumen.",
     "keywords": ["lumen", "laravel", "DB2", "Database", "PDO", "ODBC"],
     "license": "MIT",
     "authors": [
@@ -18,15 +18,15 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "^7.0",
-        "illuminate/database": "^7.0"
+        "php": ">=5.6.0",
+        "illuminate/support": ">=5.0",
+        "illuminate/database": ">=5.0"
     },
     "require-dev": {
     },
     "autoload": {
         "psr-4": {
-            "MichaelB\\Database\\DB2\\": "src/"
+            "GeigerIt\\Database\\DB2\\": "src/"
         }
     }
 }

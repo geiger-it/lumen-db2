@@ -1,4 +1,3 @@
-## This is an adaptation of [cooperl22's laravel-db2](https://www.github.com/cooperl22/laravel-db2) to work with [Lumen](http://lumen.laravel.com/)
 
 # Lumen-DB2
 
@@ -6,7 +5,7 @@
 Install lumen-db2 via composer:
 
 ```sh
-composer require michaelb/lumen-db2
+composer require geiger-it/lumen-db2
 ```
 
 Uncomment call to Eloquent and add the DB2ServiceProvideer to ``bootstrap/app.php``:
@@ -46,7 +45,7 @@ $app->withEloquent(); // <- Uncomment this
 |
 */
 
-$app->register(MichaelB\Database\DB2\DB2ServiceProvider::class); // <- Add this
+$app->register(GeigerIt\Database\DB2\DB2ServiceProvider::class); // <- Add this
 
 ```
 

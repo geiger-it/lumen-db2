@@ -1,14 +1,14 @@
 <?php
-namespace MichaelB\Database\DB2;
+namespace GeigerIt\Database\DB2;
 
 use PDO;
 
 use Illuminate\Database\Connection;
 
-use MichaelB\Database\DB2\Schema\Builder;
-use MichaelB\Database\DB2\Query\Processors\DB2Processor;
-use MichaelB\Database\DB2\Query\Grammars\DB2Grammar as QueryGrammar;
-use MichaelB\Database\DB2\Schema\Grammars\DB2Grammar as SchemaGrammar;
+use GeigerIt\Database\DB2\Schema\Builder;
+use GeigerIt\Database\DB2\Query\Processors\DB2Processor;
+use GeigerIt\Database\DB2\Query\Grammars\DB2Grammar as QueryGrammar;
+use GeigerIt\Database\DB2\Schema\Grammars\DB2Grammar as SchemaGrammar;
 
 class DB2Connection extends Connection
 {
